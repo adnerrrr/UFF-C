@@ -24,16 +24,16 @@ void insere(fila *F, int x){
 }
 
 //o elemento é removido do início. a mesma lógica de ciclicidade da inserção é aplicada aqui
-int remove(fila *F){
-    int num;
-    if (F->total > 0){
-        num = F->dados[F->inicio];
-        F->total --;
-        F->inicio ++;
-        F->inicio = F->inicio % MAX;
-    }
-    return num;
-}
+// int remove(fila *F){
+//     int num;
+//     if (F->total > 0){
+//         num = F->dados[F->inicio];
+//         F->total --;
+//         F->inicio ++;
+//         F->inicio = F->inicio % MAX;
+//     }
+//     return num;
+// }
 
 int main(){
     fila F;
