@@ -1,10 +1,10 @@
-{
-    "files.exclude": {
-        "**/*.exe": true,
-        "**/*.o": true,
-        "**/*.obj": true,
-        "**/output/": true,
-        "**/.vscode/": true
-    }
-}
+// {
+//     "files.exclude": {
+//         "**/*.exe": true,
+//         "**/*.o": true,
+//         "**/*.obj": true,
+//         "**/output/": true,
+//         "**/.vscode/": true
+//     }
+// }
 

@@ -7,7 +7,7 @@
 // 1661, etc. O final da leitura é indicado por um número negativo. Faça uma função que irá retornar para o programa
 // principal se o número é palíndromo ou não.
 
-int palindromo(num){
+int palindromo(int num){
     char n[10];
     sprintf(n, "%d", num);
     for (int i = 0; i <= strlen(n)/2; i++){
@@ -64,17 +64,17 @@ serie(i+k,j,k);
 
 int main(void) {
 
-int i,j,k;
+    int i,j,k;
 
-printf("Digite i: ");
-scanf("%d",&i);
-printf("Digite j: ");
-scanf("%d",&j);
-printf("Digite o intervalo k: ");
-scanf("%d",&k);
-serie(i,j,k);
+    printf("Digite i: ");
+    scanf("%d",&i);
+    printf("Digite j: ");
+    scanf("%d",&j);
+    printf("Digite o intervalo k: ");
+    scanf("%d",&k);
+    serie(i,j,k);
 
-return 0;
+    return 0;
 }
 
 // 6. Sabendo que o último caractere de uma string é ‘\0’, faça um programa que escreva a quantidade de caracteres desta
@@ -102,8 +102,3 @@ return 0;
 // 11. Faça um programa que leia dois vetores X e Y com números reais e escreva na tela as seguintes opções para o usuário:
 // somar X e Y, subtrair Y de X, pesquisar um elemento em X e Y, mostrar X e Y e finalizar o programa. Devem ser
 // criadas funções para: somar, subtrair, preencher, mostrar e procurar elemento.
-
-
-int main() {
-    
-}
